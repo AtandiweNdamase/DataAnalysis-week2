@@ -7,6 +7,6 @@ Third Normal form - all data in columns must depend on the primary key
 Online Analytical Processing - Focus on the ability of an organisation to analyze data
 OLAPs- Data warehouse wider data with more complex queries and rigid schema.
 OLTPs- data stored in rows and columns , data is highly detailed, flexible schema , database is very fast at querying.
-
+Star schema - is a schema diagram
 
 
