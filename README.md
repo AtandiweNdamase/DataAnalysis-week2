@@ -8,5 +8,8 @@ Online Analytical Processing - Focus on the ability of an organisation to analyz
 OLAPs- Data warehouse wider data with more complex queries and rigid schema.
 OLTPs- data stored in rows and columns , data is highly detailed, flexible schema , database is very fast at querying.
 Star schema - is a schema diagram with a star shaped connection with the fact diagram at the centre
+Intergration: Data from transactional systems flow into data warehouses and data marts for analysis
+You need to retrieve, reshape, and insert data to move data between operational and analytical environments
+One approach is known as extract, transform, and load (ETL)
 
 
