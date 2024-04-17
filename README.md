@@ -11,5 +11,9 @@ Star schema - is a schema diagram with a star shaped connection with the fact di
 Intergration: Data from transactional systems flow into data warehouses and data marts for analysis
 You need to retrieve, reshape, and insert data to move data between operational and analytical environments
 One approach is known as extract, transform, and load (ETL)
+Extract -
+Transform -
+Load -
+
 
 
