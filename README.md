@@ -54,3 +54,27 @@ A database index can point to a single column or multiple columns. When running 
 Subsets and temporary tables
 When dealing with large data volumes, you may want to work with a subset of records. For example, suppose an organization has 1,000,000 customers. Each of those customers places 200 orders per year, and there are 10 years of data in the data warehouse. In this situation, the Order table in the data warehouse would have 2 billion rows. If you want to explore trends for a specific customer's order history, it would not be efficient to query the main Order table.
 Execution plan : An execution plan shows the details of how a database runs a specific query. Execution plans are extremely helpful in troubleshooting query performance issues. They provide additional information about how a query is spending its time. For example, an execution plan can tell you if a slow-running query uses a full table scan instead of an index scan. 
+  
+  Data Quality:
+  
+Duplicate data occurs when data representing the same transaction is accidentally duplicated within a system. Suppose you want to open a spreadsheet on your local computer. To open the spreadsheet, you locate the file and double-click it. This method of opening documents establishes muscle memory that associates double-clicking with the desired action.
+REedundant Data:
+While duplicate data typically comes from accidental data entry, redundant data happens when the same data elements exist in multiple places within a system. Frequently, data redundancy is a function of integrating multiple systems.
+Having multiple data sources for the same data elements is also a source of duplicate data
+Missing Data :
+Another issue that impacts data quality is the concept of missing values. Missing values occur when you expect an attribute to contain data but nothing is there. Missing values are also known as null values. A null value is the absence of a value. A null is not a space, blank, or other character. There are situations when allowing nulls makes sense.
+A data outlier is a value that differs significantly from other observations in a dataset. Consider the real estate sale price example in Figure 4.10. All of the properties are on the same street, city, and state. Most of the properties have a sale price between $128,000 and $153,000. However, the property at 130 Main Street has a sale price of $26,496,400. That is a dramatic difference from the rest of the sales prices.
+
+A specification describes the target value for a component. A specification mismatch occurs when an individual component's characteristics are beyond the range of acceptable values. For example, suppose you want to add a room to a house and you buy 15 wooden studs. Looking at the blueprint for the addition, you need wooden studs with a rectangular cross-section measuring 2 inches by 4 inches (2×4). When purchasing the studs, you want to ensure that all 15 have a consistent cross-section.
+
+Invalid data are values outside the valid range for a given attribute. An invalid value violates a business rule instead of having an incorrect data type. As such, you have to understand the context of a system to determine whether or not a value is invalid.
+
+Nonparametric data is data collected from categorical variables, which you read about in Chapter 2: Understanding Data. Sometimes the categories indicate differentiation, and sometimes they have a rank order associated with them. In this latter case, the rank order of the values is of significance, not the individual values themselves.
+
+Data type validation ensures that values in a dataset have a consistent data type.The primary keys for both the Manufacturer and Model expect integer values, while the Manufacturer_Name and Model_Name are characters. Recall from Chapter 3 that the foreign key on Manufacturer_ID enforces referential integrity between the two tables.
+Data manipulation techniques
+Recoding data is a technique you can use to map original values for a variable into new values to facilitate analysis. Recoding groups data into multiple categories, creating a categorical variable. A categorical variable is either nominal or ordinal.
+
+Recoding data is a technique you can use to map original values for a variable into new values to facilitate analysis. Recoding groups data into multiple categories, creating a categorical variable. A categorical variable is either nominal or ordinal. Nominal variables are any variable with two or more categories where there is no natural order of the categories, like hair color or eye color. 
+
+A derived variable is a new variable resulting from a calculation on an existing variable. In the case of the recoded data in Figure 4.14, the Pain_Category categorical variable is an example of a derived variable. 
