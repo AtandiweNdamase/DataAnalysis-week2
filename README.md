@@ -92,3 +92,11 @@ replacing with zero
 replace the average
 replace with most frequent mode 
 Closest value average
+
+Data aggregation is the summarization of raw data for analysis. 
+
+Transposing data is when you want to turn rows into columns or columns into rows to facilitate analysis. 
+
+In the context of data manipulation, normalizing data differs from our discussion of database normalization in Chapter 3. In this context, normalizing data converts data from different scales to the same scale. 
+
+Methods to validate 
