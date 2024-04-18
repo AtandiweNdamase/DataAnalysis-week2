@@ -78,3 +78,17 @@ Recoding data is a technique you can use to map original values for a variable i
 Recoding data is a technique you can use to map original values for a variable into new values to facilitate analysis. Recoding groups data into multiple categories, creating a categorical variable. A categorical variable is either nominal or ordinal. Nominal variables are any variable with two or more categories where there is no natural order of the categories, like hair color or eye color. 
 
 A derived variable is a new variable resulting from a calculation on an existing variable. In the case of the recoded data in Figure 4.14, the Pain_Category categorical variable is an example of a derived variable. 
+
+A data merge uses a common variable to combine multiple datasets with different structures into a single dataset. Merging data improves data quality by adding new variables to your existing data. Additional variables make for a richer dataset, which positively impacts the quality of your analysis. ETL processes commonly append data while transforming data for use in analytical environments.
+
+Data blending combines multiple sources of data into a single dataset at the reporting layer. While data blending is conceptually similar to the extract, transform, and load process in Chapter 3, there is a crucial 
+A data append combines multiple data sources with the same structure, resulting in a new dataset containing all the rows from the original datasets. When appending data, you save the result as a new dataset for ongoing analysis.
+
+Imputation is a technique for dealing with missing values by replacing them with substitutes. When merging multiple data sources, you may end up with a dataset with many nulls in a given column. If you are collecting sensor data, it is possible to have missing values due to collection or transmission issues.
+
+Approahes analysts can use to impute data:
+removing missinf values
+replacing with zero
+replace the average
+replace with most frequent mode 
+Closest value average
