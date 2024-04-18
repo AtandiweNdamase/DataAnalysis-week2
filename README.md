@@ -11,9 +11,7 @@ Star schema - is a schema diagram with a star shaped connection with the fact di
 Intergration: Data from transactional systems flow into data warehouses and data marts for analysis
 You need to retrieve, reshape, and insert data to move data between operational and analytical environments
 One approach is known as extract, transform, and load (ETL)
-Extract -
-Transform -
-Load -
-
-
-
+Extract - you extract data from the source system and place it in a staging area. The goal of the extract phase is to move data from a relational database into a flat file as quickly as possible.
+Transform -The second phase transforms the data. The goal is to reformat the data from its transactional structure to the data warehouse's analytical design.
+Load -The purpose of the load phase is to ensure data gets into the analytical system as quickly as possible.
+API is a structured method for computer systems to exchange information. APIs provide a consistent interface to calling applications, regardless of the internal database structure.
