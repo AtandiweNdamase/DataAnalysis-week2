@@ -21,4 +21,32 @@ Human in the loop -There are times when the data you seek exists only in people'
 Survey -One way to collect data directly from your customers is by conducting a survey. Surveys can be much more complicated than a single question. For example, suppose you want a comprehensive understanding of customer satisfaction. In that case, you design a sophisticated survey that presents people with different questions depending on their answers. Complex survey logic lets you gather additional details as to why a person has a particular opinion.
 Observation- Observation is the act of collecting primary source data, from either people or machines. Observational data can be qualitative or quantitative. Collecting qualitative observational data leads to unstructured data challenges.
 sampling -Regardless of the data acquisition approach, you may end up with more data than is practical to manipulate. Imagine you are doing analytics in an Internet-of-Things environment, in which 800 billion events occur daily.
+Data Manipulation
+Create - Insert 
+Read - Select 
+Update -UpdaTE
+Delete - delete
+Select <what> from <source>.
+SELECT  Animal_Name, Breed_Name
+
+FROM   Animal
+
+WHERE  Animal_Type = 'Dog'
+
+AND   Weight> 60
+
+ORDER BY Date_of_Birth DESC
+
+Boolean
+
+SELECT  Animal_Name, IFF(Sex = 'M', 'Male', 'Female')
+
+FROM   Animal
+
+SQL aggregate functions
+Count,Min,Max,AVG,SUM,STDDEV
+
+Querying optimization
+
+
 
