@@ -105,3 +105,5 @@ Methods to validate quality:
 3.Another method to keep in mind is auditing your data. Data audits look at your data and help you understand whether or not you have the data you need to operate your business. Data audits use data profiling techniques and can help identify data integrity and security issues. For example, suppose you work with a large company that has relationships with numerous suppliers. 
 4.Another method for validating data quality is by examining a sample of your data. Sampling is a statistical technique in which you use a subset of your data to inform conclusions about your overall data. For example, suppose you are an automotive manufacturer and want to ensure the quality of fasteners from one of your suppliers.
 5.Analysts frequently use existing data to generate predictive models using a variety of statistical methods. Cross-validation is a statistical technique that evaluates how well predictive models perform. Cross-validation works by dividing data into two subsets. The first subset is the training set, and the second is the testing, or validation, set.
+
+
