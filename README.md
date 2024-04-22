@@ -107,16 +107,42 @@ Methods to validate quality:
 5.Analysts frequently use existing data to generate predictive models using a variety of statistical methods. Cross-validation is a statistical technique that evaluates how well predictive models perform. Cross-validation works by dividing data into two subsets. The first subset is the training set, and the second is the testing, or validation, set.
 Stats- is the collection and interpretation of data.
 Types of Statistics:
-Infrerential Stats : deals with taking a sample and analyzing it to make judgements and claims about a population.
+Inferential Stats : deals with taking a sample and analyzing it to make judgements and claims about a population.
 Descriptive Stats: getting data and talking about it , visualizations are used to explain the results.
 
 Catergorial ordinal or nomial:
 Logical ordering of values of catergorial variable eg.Letter grade
 No Ordering to the values of a catergorial variables eg.Hair color
 
-Quantitive Variable
+Quantitive Variable:
 Discrete:variables that can be measured in certaun numbers.
 Continuous: variables that can be measure in any numeric values 
+
+Measures of Frequency:
+Measures of frequency help you understand how often something happens.
+Count:
+The most straightforward way to understand how much data you're working with is to count the number of observations. Understanding the total number of observations is a frequently performed task. As such, there is a count function in everything from spreadsheets to programming languages.
+
+Percentage 
+The percentage is a frequency measure that identifies the proportion of a given value for a variable with respect to the total number of rows in the dataset. To calculate a percentage, you need the total number of observations and the total number of observations for a specific value of a variable.
+Percentage change:
+You can calculate the relative change by subtracting the initial value from the final value and then dividing by the absolute value of the initial value:
+![image](https://github.com/AtandiweNdamase/DataAnalysis-week2/assets/162970298/f8850973-090a-4962-ad76-ca42fd2a4ac3)
+Percentage difference:
+Percent values are also applicable when comparing observations for a variable. The percent difference compares two values for a variable. You calculate the percent difference by subtracting the initial value from the final value and then dividing by the average of the two values
+Central Tendency
+The mean: or average, is a measurement of central tendency that computes the arithmetic average for a given set of numeric values. To calculate the mean, you take the sum of all values for an observation and divide by the number of observations
+Frequency: describes how often a specific value for a variable occurs in a dataset. You typically explore frequency when conducting univariate( data type that consist of a single attribute) analysis.
+The mean, or average, is a measurement of central tendency that computes the arithmetic average for a given set of numeric values. To calculate the mean, you take the sum of all values for an observation and divide by the number of observations
+Another measurement of central tendency is the median, which identifies the midpoint value for all observations of a variable. The first step to calculating the median is sorting your data numerically
+The mode is a variable's most frequently occurring observation. 
+Measures of dispersion
+The range of a variable is the difference between its maximum and minimum values
+
+
+
+
+
 
 
 
