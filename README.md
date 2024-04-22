@@ -105,5 +105,21 @@ Methods to validate quality:
 3.Another method to keep in mind is auditing your data. Data audits look at your data and help you understand whether or not you have the data you need to operate your business. Data audits use data profiling techniques and can help identify data integrity and security issues. For example, suppose you work with a large company that has relationships with numerous suppliers. 
 4.Another method for validating data quality is by examining a sample of your data. Sampling is a statistical technique in which you use a subset of your data to inform conclusions about your overall data. For example, suppose you are an automotive manufacturer and want to ensure the quality of fasteners from one of your suppliers.
 5.Analysts frequently use existing data to generate predictive models using a variety of statistical methods. Cross-validation is a statistical technique that evaluates how well predictive models perform. Cross-validation works by dividing data into two subsets. The first subset is the training set, and the second is the testing, or validation, set.
+Stats- is the collection and interpretation of data.
+Types of Statistics:
+Infrerential Stats : deals with taking a sample and analyzing it to make judgements and claims about a population.
+Descriptive Stats: getting data and talking about it , visualizations are used to explain the results.
+
+Catergorial ordinal or nomial:
+Logical ordering of values of catergorial variable eg.Letter grade
+No Ordering to the values of a catergorial variables eg.Hair color
+
+Quantitive Variable
+Discrete:variables that can be measured in certaun numbers.
+Continuous: variables that can be measure in any numeric values 
+
+
+
+
 
 
