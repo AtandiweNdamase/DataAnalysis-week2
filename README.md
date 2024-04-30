@@ -138,8 +138,12 @@ Another measurement of central tendency is the median, which identifies the midp
 The mode is a variable's most frequently occurring observation. 
 Measures of dispersion
 The range of a variable is the difference between its maximum and minimum values
-
-
+Types of analysis:
+Trend analysis: One of the types of analysis you may be asked to perform is trend analysis. Trend analysis seeks to identify patterns by comparing data over time.
+Determine the types of analysis:
+The first step to understanding the objectives is to ensure that you have clarity on the business questions at hand. Recall that the goal of answering a business question is to develop an insight that informs a business decision.
+You need to review the business questions and identify any points that require additional clarification. This clarity will help you identify the data you need as well as the data sources.
+Develop a list of clarifying questions. This list can help define the scope of your analysis.
 
 
 
